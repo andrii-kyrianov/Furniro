@@ -1,0 +1,94 @@
+.footer {
+    // .footer__wrapper
+    
+    &__wrapper {
+        padding: rem(33) 0;
+        display: flex;
+        justify-content: center;
+        gap: rem(116);
+        flex-wrap: wrap;
+        border-top: 1px solid #d9d9d9;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    // .footer__info
+    &__info {
+        padding: 0 rem(15) rem(15) 0;
+    }
+    // .footer__logo
+    &__logo {
+        font-weight: 700;
+        font-size: rem(24);
+        color: #000;
+        margin-bottom: rem(50);
+    }
+    // .footer__location
+    &__location {
+        font-weight: 400;
+        color: #9f9f9f;
+    }
+    // .footer__links-list
+    &__links-list {
+        padding: 0 rem(15) rem(15) 0;
+        display: flex;
+        flex-direction: column;
+        gap: rem(45);
+    }
+    // .footer__links-subtitle
+    &__links-subtitle {
+        color: #9f9f9f;
+        margin-bottom: rem(10);
+    }
+    // .footer__link
+    &__link {
+        color: var(--color-black);
+    }
+    // .footer__help-list
+    &__help-list {
+        padding: 0 rem(15) rem(15) 0;
+        display: flex;
+        flex-direction: column;
+        gap: rem(45);
+    }
+    // .footer__help-subtitle
+    &__help-subtitle {
+        color: #9f9f9f;
+        margin-bottom: rem(10);
+    }
+    // .footer__help-item
+    &__help-item {
+        color: var(--color-black);
+    }
+    // .footer__newsletter
+    &__newsletter {
+        padding-right: rem(110);
+    }
+    // .footer__newsletter-subtitle
+    &__newsletter-subtitle {
+        color: #9f9f9f;
+        margin-bottom: rem(53);
+    }
+    // .footer__form
+    &__form {}
+    // .footer__form-input
+    &__form-input {
+        margin-right: rem(11);
+        border-bottom: 1px solid #000;
+    }
+    &__form-input::placeholder {
+        font-weight: 400;
+        font-size: rem(14);
+        color: #9f9f9f;
+    }
+    // .footer__form-btn
+    &__form-btn {
+        font-size: rem(14);
+        color: #000;
+        text-transform: uppercase;
+        border-bottom: 1px solid #000;
+    }
+}
+.copirid {
+    margin: rem(48) 0 rem(38);
+    font-weight: 400;
+    color: var(--color-black);
+}

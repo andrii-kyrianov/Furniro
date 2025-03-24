@@ -1,0 +1,11 @@
+.related-products {
+    margin-bottom: rem(90);
+    // .related-products__title
+    &__title {
+        margin-bottom: rem(24);
+        color: var(--color-black);
+        text-align: center;
+        @include adaptiv-value( font-size, 36, 24, 1);
+    }
+}
+

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('blocks/head.html')
+
+<body>
+
+	@@include('blocks/header.html')
+
+	<main  class="main">
+
+        <section class="shop">
+            <div class="container">
+                <h2 class="shop__title">Shop</h2>
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item">
+                        <a class="breadcrumbs__item-link" href="!#">Home</a>
+                    </li>
+                    <li class="breadcrumbs__item">Shop</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="filter">
+            <div class="container">
+                <div class="filter__wrapper"> 
+                    <div class="filter__sort">
+                        <button class="filter__sort-btn">
+                            <img src="../img/filter/filter.svg" alt="icon">
+                            <span>Filter</span>
+                        </button>
+                        <button class="filter__sort-btn">
+                            <img src="../img/filter/sort1.svg" alt="icon">
+                        </button>
+                        <button class="filter__sort-btn">
+                            <img src="../img/filter/sort2.svg" alt="icon">
+                        </button>
+                        <div class="filter__sort-results">Showing 1–16 of 32 results</div>
+                    </div>
+                    <div class="filter__info">
+                        <div class="filter__info-item">Show</div>
+                        <div class="filter__info-item">16</div>
+                        <div class="filter__info-item">Short by</div>
+                        <div class="filter__info-item">Default</div>
+                    </div>
+                </div>
+                @@include('blocks/filter.html')
+            </div>
+        </div>
+        
+        <div class="products">
+			<div class="container">
+				<ul class="products__carts">
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image1.jpg" alt="images">
+							<div class="products__cart-discount">-30%</div>
+							<div class="products__cart-name">Syltherine</div>
+							<div class="products__cart-description">Stylish cafe chair</div>
+							<div class="products__cart-price">
+								Rp 2.500.000 
+								<span class="products__cart-price-discount">Rp 3.500.000</span>
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image2.jpg" alt="images">
+							<div class="products__cart-name">Leviosa</div>
+							<div class="products__cart-description">Stylish cafe chair</div>
+							<div class="products__cart-price">
+								Rp 2.500.000 
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image3.jpg" alt="images">
+							<div class="products__cart-discount">-50%</div>
+							<div class="products__cart-name">Lolito</div>
+							<div class="products__cart-description">Luxury big sofa</div>
+							<div class="products__cart-price">
+								Rp 7.000.000
+								<span class="products__cart-price-discount">Rp 14.000.000</span>
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image4.jpg" alt="images">
+							<div class="products__cart-new">New</div>
+							<div class="products__cart-name">Respira</div>
+							<div class="products__cart-description">Outdoor bar table and stool</div>
+							<div class="products__cart-price">
+								Rp 500.000 
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/Image5.jpg" alt="images">
+							<div class="products__cart-name">Grifo</div>
+							<div class="products__cart-description">Night lamp</div>
+							<div class="products__cart-price">
+								Rp 1.500.000 
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image6.jpg" alt="images">
+							<div class="products__cart-new">New</div>
+							<div class="products__cart-name">Muggo</div>
+							<div class="products__cart-description">Small mug</div>
+							<div class="products__cart-price">
+								Rp 150.000
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image7.jpg" alt="images">
+							<div class="products__cart-discount">-50%</div>
+							<div class="products__cart-name">Pingky</div>
+							<div class="products__cart-description">Cute bed set</div>
+							<div class="products__cart-price">
+								Rp 7.000.000 
+								<span class="products__cart-price-discount">Rp 14.000.000</span>
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image8.jpg" alt="images">
+							<div class="products__cart-new">New</div>
+							<div class="products__cart-name">Potty</div>
+							<div class="products__cart-description">Minimalist flower pot</div>
+							<div class="products__cart-price">
+								Rp 500.000
+							</div>
+						</a>
+					</li>
+                    <li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image1.jpg" alt="images">
+							<div class="products__cart-discount">-30%</div>
+							<div class="products__cart-name">Syltherine</div>
+							<div class="products__cart-description">Stylish cafe chair</div>
+							<div class="products__cart-price">
+								Rp 2.500.000 
+								<span class="products__cart-price-discount">Rp 3.500.000</span>
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image2.jpg" alt="images">
+							<div class="products__cart-name">Leviosa</div>
+							<div class="products__cart-description">Stylish cafe chair</div>
+							<div class="products__cart-price">
+								Rp 2.500.000 
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image3.jpg" alt="images">
+							<div class="products__cart-discount">-50%</div>
+							<div class="products__cart-name">Lolito</div>
+							<div class="products__cart-description">Luxury big sofa</div>
+							<div class="products__cart-price">
+								Rp 7.000.000
+								<span class="products__cart-price-discount">Rp 14.000.000</span>
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image4.jpg" alt="images">
+							<div class="products__cart-new">New</div>
+							<div class="products__cart-name">Respira</div>
+							<div class="products__cart-description">Outdoor bar table and stool</div>
+							<div class="products__cart-price">
+								Rp 500.000 
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/Image5.jpg" alt="images">
+							<div class="products__cart-name">Grifo</div>
+							<div class="products__cart-description">Night lamp</div>
+							<div class="products__cart-price">
+								Rp 1.500.000 
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image6.jpg" alt="images">
+							<div class="products__cart-new">New</div>
+							<div class="products__cart-name">Muggo</div>
+							<div class="products__cart-description">Small mug</div>
+							<div class="products__cart-price">
+								Rp 150.000
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image7.jpg" alt="images">
+							<div class="products__cart-discount">-50%</div>
+							<div class="products__cart-name">Pingky</div>
+							<div class="products__cart-description">Cute bed set</div>
+							<div class="products__cart-price">
+								Rp 7.000.000 
+								<span class="products__cart-price-discount">Rp 14.000.000</span>
+							</div>
+						</a>
+					</li>
+					<li class="products__cart">
+						<div class="products__cart-hover-content">
+							<a class="products__cart-hover-btn" href="product-page.html">Add to cart</a>
+							<div class="products__cart-hover-lincs">
+								<a class="products__cart-hover-share" href="!#">
+									<img class="products__cart-hover-share-img" src="../img/products/share.svg" alt="images">
+									<div>Share</div>
+								</a>
+								<a class="products__cart-hover-compare" href="!#">
+									<img class="products__cart-hover-compare-img" src="../img/products/compare.svg" alt="images">
+									Compare
+								</a>
+								<a class="products__cart-hover-like" href="!#">
+									<img class="products__cart-hover-like-img" src="../img/products/like.svg" alt="images">
+									Like
+								</a>
+							</div>
+						</div>
+						<a href="!#">
+							<img class="products__cart-img" src="../img/products/image8.jpg" alt="images">
+							<div class="products__cart-new">New</div>
+							<div class="products__cart-name">Potty</div>
+							<div class="products__cart-description">Minimalist flower pot</div>
+							<div class="products__cart-price">
+								Rp 500.000
+							</div>
+						</a>
+					</li>
+				</ul>
+				<!-- <button class="products__btn">Show More</button> -->
+
+                <div class="products__pagination">
+                        <button class="products__pagination-bulet products__pagination-bulet-active">1</button>
+                        <button class="products__pagination-bulet">2</button>
+                        <button class="products__pagination-bulet">3</button>
+                        <button class="products__pagination-next">Next</button>
+                </div>
+
+			</div>
+		</div>
+		
+	</main>
+
+	@@include('blocks/footer.html')
+
+	<script src="./js/index.bundle.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+.header {
+	padding: rem(30) 0;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__icon{
+		display: flex;
+		align-items: center;
+		gap: rem(45);
+		@include tablet {
+			display: none;
+		}
+	}
+}
+
+
+
+

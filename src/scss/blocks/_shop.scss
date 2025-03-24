@@ -1,0 +1,48 @@
+.shop {
+    background-image: url(../../img/shop_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    // .shop__title
+    &__title {
+        padding-top: rem(121);
+        font-size: rem(48);
+        color: var(--color-black);
+    }
+}
+
+.breadcrumbs {
+    overflow-x: auto;
+    
+    padding-bottom: rem(93);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    // .breadcrumbs__item
+    &__item {
+        font-weight: 300;
+    }
+    // .breadcrumbs__item-link
+    &__item-link {
+        display: flex;
+        flex-wrap: nowrap;
+        color: var(--color-black);
+        font-weight: 500;
+        &:hover{
+            text-decoration: underline;
+        }
+        &::after{
+            padding: 0 rem(12);
+            content: url(../../img/braedcrambs_arow_left.svg);
+        }
+    }
+}
+
+.breadcrumbs__product-page{
+    margin-bottom: rem(35);
+    padding: rem(38) rem(38) rem(38) rem(100);
+    justify-content: start;
+    background: #F9F1E7;
+}
