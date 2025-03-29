@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('blocks/head.html')
+
+<body>
+
+  @@include('blocks/header.html')
+
+    <main class="main">
+
+        <section class="shop contact">
+            <div class="container">
+                <h2 class="shop__title">Contact</h2>
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item">
+                        <a class="breadcrumbs__item-link" href="!#">Home</a>
+                    </li>
+                    <li class="breadcrumbs__item">Contact</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="container">
+                <h4 class="feedback__title">Get In Touch With Us</h4>
+                <p class="feedback__text">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
+                <div class="feedback__content">
+                    <div class="feedback__info">
+                        <div class="feedback__info-box feedback__info-box-address">
+                            <div class="feedback__info-subtitle">Address</div>
+                            <p class="feedback__info-text">236 5th SE Avenue, New York NY10000, United States</p>
+                        </div>
+                        <div class="feedback__info-box feedback__info-box-phone">
+                            <div class="feedback__info-subtitle">Phone</div>
+                            <div class="feedback__info-text">Mobile: +(84) 546-6789</div>
+                            <div class="feedback__info-text">Hotline: +(84) 456-6789</div>
+                        </div>
+                        <div class="feedback__info-box feedback__info-box-working">
+                            <div class="feedback__info-subtitle">Working Time</div>
+                            <div class="feedback__info-text">Monday-Friday: 9:00 - 22:00</div>
+                            <div class="feedback__info-text">Saturday-Sunday: 9:00 - 21:00</div>
+                        </div>
+                    </div>
+                    <form class="feedback__form" action="">
+                        <div class="feedback__form-box">
+                            <div class="feedback__form-subtitle">Your name</div>
+                            <input class="feedback__form-input" type="text" placeholder="Abc">
+                        </div>
+                        <div class="feedback__form-box">
+                            <div class="feedback__form-subtitle">Email address</div>
+                            <input class="feedback__form-input" type="email" placeholder="Abc@def.com">
+                        </div>
+                        <div class="feedback__form-box">
+                            <div class="feedback__form-subtitle">Subject</div>
+                            <input class="feedback__form-input" type="text" placeholder="This is an optional">
+                        </div>
+                        <div class="feedback__form-box">
+                            <div class="feedback__form-subtitle">Message</div>
+                            <textarea class="feedback__form-subtitle-message" placeholder="Hi! i’d like to ask about" name="Message" id=""></textarea>
+                        </div>
+                        <button class="feedback__form-btn" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+  @@include('blocks/footer.html')
+
+  <script src="./js/index.bundle.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+.feedback {
+    margin: rem(100) 0;
+    // .feedback__title
+    &__title {
+        margin-bottom: rem(10);
+        text-align: center;
+        font-weight: 600;
+        @include adaptiv-value(font-size, 36, 24, 1);
+        color: var(--color-black);
+    }
+    // .feedback__text
+    &__text {
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 400;
+        max-width: 645px;
+    }
+    // .feedback__content
+    &__content {
+        margin-top: rem(129);
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    // .feedback__info
+    &__info {
+        margin-bottom: rem(50);
+        padding-left: rem(40);
+        display: flex;
+        flex-direction: column;
+        gap: rem(78);
+        max-width: 393px;;
+    }
+    // .feedback__info-box
+    &__info-box {}
+    // .feedback__info-subtitle
+    &__info-subtitle {
+        font-size: rem(24);
+        color: #000;
+    }
+    // .feedback__info-text
+    &__info-text {
+        font-weight: 400;
+        color: #000;
+    }
+    // .feedback__form
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: rem(36);
+    }
+    // .feedback__form-box
+    &__form-box {
+        @include adaptiv-value(width, 530, 300, 1);
+    }
+    // .feedback__form-subtitle
+    &__form-subtitle {
+        margin-bottom: rem(22);
+        color: var(--color-black);
+    }
+    // .feedback__form-input
+    &__form-input {
+        padding: 0 15px;
+        border: 1px solid #9f9f9f;
+        border-radius: 10px;
+        width: 100%;
+        height: 50px;
+        &:hover{
+            border: 3px solid #7c7c7c;
+        }
+    }
+    // .feedback__form-subtitle-message
+    &__form-subtitle-message {
+        padding: 15px;
+        border: 1px solid #9f9f9f;
+        border-radius: 10px;
+        width: 100%;
+        height: 120px;
+        &:hover{
+            border: 3px solid #7c7c7c;
+        }
+    }
+    // .feedback__form-btn
+    &__form-btn{
+        background-color: var(--color-btn);
+        border-radius: 5px;
+        font-weight: 400;
+        color: #fff;
+        width: 237px;
+        height: 55px;
+        transition: all 0.2s ease-in;
+        &:hover{
+            background: #a89248;
+        }
+    }
+}
+
+.feedback__info-box-address{
+    position: relative;
+    &::after{
+        content: url(../../img/locatin.svg);
+        position: absolute;
+        left: -42px;
+        top: 0;
+    }
+}
+.feedback__info-box-phone{
+    position: relative;
+    &::after{
+        content: url(../../img/phone.svg);
+        position: absolute;
+        left: -42px;
+        top: 0;
+    }
+}
+.feedback__info-box-working{
+    position: relative;
+    &::after{
+        content: url(../../img/clocksvg.svg);
+        position: absolute;
+        left: -42px;
+        top: 0;
+    }
+}
